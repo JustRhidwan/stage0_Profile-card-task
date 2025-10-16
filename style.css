@@ -11,7 +11,6 @@ img {
     height: auto;
     width: 100%;
     object-fit: cover;
-    flex-shrink: 0;
 }
 .profile-card{
     padding: 10px;
@@ -69,7 +68,7 @@ a {
     }
 }
 
-@media (max-width: 1024px)  {
+@media (max-width: 1040px)  {
     img {
         height: auto;
         width: 100%;
