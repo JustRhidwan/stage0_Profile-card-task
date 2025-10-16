@@ -10,6 +10,10 @@
 img {
     height: 500px;
     width: 100%;
+<<<<<<< HEAD
+=======
+    object-fit: cover;
+>>>>>>> 20ae31f1b0496803363220e569f970ce933c6d8e
 }
 .profile-card{
     padding: 10px;
