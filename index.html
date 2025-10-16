@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <article class="profile-card" data-testid="test-profile-card">
+
+        <div class="card-header-content">
+            <figure class="user-avatar-container">
+                <img 
+                    src="pp.jpeg" 
+                    alt="User's profile photo: A smiling developer working at a computer." 
+                    class="user-avatar"
+                    data-testid="test-user-avatar"
+                >
+                </figure>
+
+            <header class="user-info">
+                <h2 data-testid="test-user-name">Adekola Ridwan</h2>
+                
+                <p class="user-bio" data-testid="test-user-bio">
+                    A passionate frontend dev specializing in accessible, responsive, and performance-driven user interfaces. I live and breathe semantic HTML and modern CSS, and always eager to  learn more.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptatibus ducimus dolor praesentium debitis, suscipit nesciunt voluptas fugiat cumque impedit consectetur inventore accusantium
+                     quasi maxime et facere quos, dignissimos doloribus!
+                </p>
+                
+                <p class="current-time-display">
+                    Current Time (ms): <span data-testid="test-user-time">0</span>
+                </p>
+            </header>
+        </div>
+
+        <hr>
+
+        <nav class="social-links-nav" data-testid="test-user-social-links">
+            <h3>Connect with me</h3>
+            <ul>
+                <li>
+                    <a 
+                        href="https://github.com/justRhidwan" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        data-testid="test-user-social-github"
+                    >
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="https://x.com/__iamRidwan?s=09" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        data-testid="test-user-social-twitter"
+                    >
+                        Twitter/X
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        href="https://www.linkedin.com/in/ridwan-adekola-42273438a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        data-testid="test-user-social-linkedin"
+                    >
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <section class="hobbies-section">
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+                <li>Coding challenges</li>
+                <li>Gaming</li>
+                <li>Reading tech blogs</li>
+            </ul>
+        </section>
+        
+        <hr>
+
+        <section class="dislikes-section">
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+                <li>Bad internet connection</li>
+                <li>Layout-breaking CSS</li>
+                <li>Headaches that come with fixing bugs</li>
+            </ul>
+        </section>
+
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
