@@ -8,10 +8,10 @@
     font-family: "Roboto", sans-serif;
 }
 img {
-    height: 500px;
-    width: 100%;
+    height: auto;
+    width: 500px;
     object-fit: cover;
-    flex-shrink: 0;
+    
 }
 .profile-card{
     padding: 10px;
