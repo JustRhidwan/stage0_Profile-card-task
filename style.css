@@ -12,6 +12,16 @@ img {
     width: 100%;
     object-fit: cover;
 }
+.user-avatar-container {
+    height: auto;
+    object-fit: cover;
+}
+.user-bio {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 10px;
+    color: #ecf0f1;
+}
 .profile-card{
     padding: 10px;
 }
