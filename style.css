@@ -9,9 +9,7 @@
 }
 img {
     height: auto;
-    width: 500px;
-    object-fit: cover;
-    
+    width: 100%  
 }
 .profile-card{
     padding: 10px;
