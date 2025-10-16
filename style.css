@@ -16,6 +16,9 @@ img {
     height: auto;
     object-fit: cover;
 }
+.user-info {
+    width: 100%;
+}
 .user-bio {
     font-size: 1rem;
     line-height: 1.5;
@@ -67,7 +70,7 @@ a {
 
  }
 
-@media (max-width: 600px) {
+@media (max-width: 731px) {
     img {
         height: auto;
         width: 100%;
@@ -78,9 +81,12 @@ a {
     }
 }
 
+
+
 @media (max-width: 1040px)  {
     img {
         height: auto;
         width: 100%;
     }
 }
+
