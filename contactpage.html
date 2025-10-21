@@ -6,7 +6,7 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="contact">
     <Main>
         <h1>Contact Us</h1>
         <form id="Contact-form" novalidate>
@@ -14,21 +14,22 @@
             <input type="text" data-testid="test-contact-name" class="name" required>
             <span id="name-error" data-testid="test-contact-error-name" class="error-message" aria-live="polite"></span>
 
-            <label for="email">Email</label>
+            <label for="email">Email *</label>
             <input type="email" data-testid="test-contact-email" class="email" required aria-describedby="email-error">
             <span id="email-error" data-testid="test-contact-error-email" class="error-message" aria-live="polite"></span>
 
-            <label for="subject">Subject</label>
+            <label for="subject">Subject *</label>
             <input type="text" data-testid="test-contact-subject" class="subject" required>
             <span id="subject-error" data-testid="test-contact-error-subject"  class="error-message" aria-live="polite"></span>
 
-            <label for="message">Message</label>
+            <label for="message">Message *</label>
             <input type="textarea" data-testid="test-contact-messsage" class="message" required minlength="10">
             <span id="message-error" data-testid="test-contact-error-message" class="error-message" aria-live="polite"></span>
 
             <button type="submit" data-testid="test-contact-submit">Submit</button>
-                <p id="success-message" data-testid="test-contact-success-message" style="display: none;"> Thank you! Your message has been sent successfully.</p>
+                <p id="success-message" data-testid="test-contact-success-message">  </p>
         </form>
     </Main>
+    <script src="script.js"></script>
 </body>
 </html>
