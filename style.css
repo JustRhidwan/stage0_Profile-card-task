@@ -66,15 +66,12 @@ a {
 
 }
 
-  a:focus, button:focus {
-    outline: 2px solid black;
-
-}
+  
 .social-links-nav ul {
     display: flex;
     gap: 15px;
 }
-.social-links-nav li {
+.social-links-nav li, .navigation-links li {
     border: 2px solid #bdc3c7;
     padding: 10px;
     border-radius: 10px;
@@ -93,9 +90,10 @@ a {
     width: 100%;
  }
  input {
-    display: block;
-    border: 1px solid black;
+    border: 2px solid #4491c4;
     border-radius: 5px;
+    height: 30px;
+    width: 300px;
  }
  span {
     display: block;
@@ -103,13 +101,26 @@ a {
  }
  button{
     background-color: transparent;
-    border: 1px solid black;
+    border: 2px solid #4491c4;
     border-radius: 5px;
     margin-bottom: 10px;
  }
  .error {
     font-size: 0.5rem;
     color: red;
+ }
+ .navigation-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ form {
+   margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center inputs horizontally */
+    
  }
  section {
  margin-bottom: 10px;
@@ -124,17 +135,18 @@ a {
  #goals ul, #confidence ul {
     display: flex;
     gap: 10px;
-    margin-bottom: 10px;
+    align-items: center;
  }
  #goals li, #confidence li {
     border: 2px solid #4491c4;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
-    width: 300px;
+    width: 250px;
  }
  @media (max-width: 375px) {
-    button {
+    
+    input {
         width: 100%;
     }
  }
